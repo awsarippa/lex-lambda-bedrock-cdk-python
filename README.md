@@ -44,7 +44,7 @@ Make sure you have the [AWS CDK](https://docs.aws.amazon.com/cdk/v2/guide/gettin
 ### Set up environment and gather packages
 
 ```
-cd lex-lambda-cdk-python
+cd lex-lambda-bedrock-cdk-python
 ```
 
 Install the required dependencies (aws-cdk-lib and constructs) into your Python environment 
@@ -77,7 +77,7 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 
 ### Things to make sure in Lex console
 
-- Click on Bot `LexGenAIBot` and verify that three intents `Welcome Intent`, `GenerateImageIntent`, and `FallbackIntent` are present as per the below screenshot. 
+- Click on Bot `LexGenAIBot` and verify that three intents `Welcome Intent`, `GenerateTextIntent`, and `FallbackIntent` are present as per the below screenshot. 
 ![Diagram](diagrams/LexIntentsPage.png)
 
 
@@ -89,15 +89,11 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 ![Diagram](diagrams/WelcomeIntentClosingResponse.png)
 
 
-- If all the above steps are in place, click on `GenerateImageIntent` available on the list of Intents (seen left-hand side).
+- If all the above steps are in place, click on `GenerateTextIntent` available on the list of Intents (seen left-hand side).
 
 
-- Once you are in the `GenerateImageIntent` page, scroll down to `Sample utterances` to ensure the utterances are created.
-![Diagram](diagrams/GenerateImageIntentSampleUtterances.png)
-
-
-- Once you are in the `GenerateImageIntent` page, scroll down to `Sample utterances` to ensure the utterances are created.
-![Diagram](diagrams/GenerateImageIntentSampleUtterances.png)
+- Once you are in the `GenerateTextIntent` page, scroll down to `Sample utterances` to ensure the utterances are created.
+![Diagram](diagrams/GenerateTextIntentSampleUtterances.png)
 
 
 - Scroll down to find the `Fulfilment` section and click on the `Advanced options` button. Verify that `Fulfilment Lambda code hook option` is checked.
@@ -134,11 +130,11 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 
 
 - Enter some sample queries and get the image generated.
-![Diagram](diagrams/Sample Test case.png)
+![Diagram](diagrams/Sample Test case I.png)
+![Diagram](diagrams/Sample Test case II.png)
+![Diagram](diagrams/Sample Test case III.png)
+![Diagram](diagrams/Sample Test case IV.png)
 
-
-- The image would be generated and available in S3 bucket. Additionally, a S3 pre-signed url has been generated and shortened for easy consumption. 
-- Copy & paste the tiny url in a browser and the image is downloaded. 
 
 ### Tips for best results
 
@@ -160,4 +156,4 @@ This will keep an instance running at all times and keep your lambda ready so th
 
 ## Clean Up
 
-To clean up the resources created as part of this demonstration, run the command `cdk destroy` in the directory `amazon-lex-lambda-genai-chatbot`.
+To clean up the resources created as part of this demonstration, run the command `cdk destroy` in the directory `lex-lambda-bedrock-cdk-python`.
