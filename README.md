@@ -117,16 +117,16 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 
 - Bot build in progress
 ![Diagram](diagrams/Build.png)
-![Diagram](diagrams/Build in-progress I.png)
-![Diagram](diagrams/Build in-progress II.png)
+![Diagram](diagrams/Build_in-progress_I.png)
+![Diagram](diagrams/Build_in-progress_II.png)
 
 
 - Once the Bot is built successfully, we're ready to test the `LexGenAIBot` bot. Click on the `Test` button
-![Diagram](diagrams/Build Complete.png)
+![Diagram](diagrams/Build_Complete.png)
 
 
 - The Test console opens up.
-![Diagram](diagrams/Test Console.png)
+![Diagram](diagrams/Test_Console.png)
 
 
 - Enter some sample queries and get the image generated.
