@@ -130,10 +130,10 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 
 
 - Enter some sample queries and get the image generated.
-![Diagram](diagrams/Sample Test case I.png)
-![Diagram](diagrams/Sample Test case II.png)
-![Diagram](diagrams/Sample Test case III.png)
-![Diagram](diagrams/Sample Test case IV.png)
+![Diagram](diagrams/Sample_Test_case_I.png)
+![Diagram](diagrams/Sample_Test_case_II.png)
+![Diagram](diagrams/Sample_Test_case_III.png)
+![Diagram](diagrams/Sample_Test_case_IV.png)
 
 
 ### Tips for best results
