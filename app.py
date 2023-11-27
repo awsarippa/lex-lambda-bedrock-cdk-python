@@ -4,7 +4,6 @@ from aws_cdk import (
     Duration,
     Stack,
     aws_lex as lex,
-    aws_s3 as s3,
     aws_iam as iam,
     aws_lambda as lambda_,
 )
@@ -130,7 +129,7 @@ class LexGenAIServerless(Stack):
             sample_utterances=[
                 lex.CfnBot.SampleUtteranceProperty(utterance="Hi"),
                 lex.CfnBot.SampleUtteranceProperty(utterance="Hey there"),
-                lex.CfnBot.SampleUtteranceProperty(utterance="Hellow"),
+                lex.CfnBot.SampleUtteranceProperty(utterance="Hello"),
                 lex.CfnBot.SampleUtteranceProperty(utterance="I need some help"),
                 lex.CfnBot.SampleUtteranceProperty(utterance="Help needed"),
                 lex.CfnBot.SampleUtteranceProperty(utterance="Can I get some help?"),
