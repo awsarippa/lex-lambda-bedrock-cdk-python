@@ -1,5 +1,5 @@
 # Text generation via Lex -> Lambda -> Bedrock
-The repository shows a serverless pattern of how to leverage GenAI capabilities to build a NextGen chatbot.
+The repository shows a serverless way of how to leverage GenAI capabilities to build a NextGen chatbot.
 
 ## Architecture
 ![Diagram](diagrams/architecture.png)
