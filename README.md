@@ -140,7 +140,7 @@ If the deployment is successful, a Lex bot named `LexGenAIBot` should be seen in
 
 **Keep your lambda perpetually warm by provisioning an instance for the runtime lambda**
 
-Go to Lambda console > select the function LexGenAIDemoFilesStack-LexGenAIBotLambda*
+Go to Lambda console > select the function LexGenAIServerlessStack-LexGenAIBotLambda*
 
 Versions > Publish new version
 
