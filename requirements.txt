@@ -2,6 +2,6 @@ pyshorteners
 boto3>=1.28.57
 awscli>=1.29.57
 botocore>=1.31.57
-Pillow==9.5.0
+Pillow
 aws-cdk-lib==2.80.0
 constructs>=10.0.0,<11.0.0
